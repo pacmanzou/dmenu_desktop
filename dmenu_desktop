@@ -5,9 +5,10 @@
 # Description: dmenu_desktop
 #
 
-if [ "$1" = -h ]; then
-    echo "usage: dmenu_desktop [-u]"
-    exit 1
+if [[ "$1" == "-h" ]]; then
+    echo "usage:"
+    echo "  -u   update desktop list"
+    exit 0
 fi
 
 # default_browser
